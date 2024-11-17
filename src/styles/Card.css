@@ -1,0 +1,72 @@
+.card {
+    width: 330px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    position: relative;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.device-name {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-circle {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: #d4edf8;
+}
+
+.task {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.issue-type {
+    display: flex;
+    align-items: center;
+    padding: 2px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+    background-color: #f9f9f9;
+}
+
+.bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #666;
+    margin-right: 4px;
+}

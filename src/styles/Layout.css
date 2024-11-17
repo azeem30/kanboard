@@ -1,0 +1,8 @@
+.layout {
+    min-height: 100vh;  
+    padding-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f6fa
+}
